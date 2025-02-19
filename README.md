@@ -78,13 +78,9 @@ imported.
         description="I love creating simple and elegant web solutions."
         image="https://example.com/avatar.jpg"
       ></hero-component>
-      <skills-component></skills-component>
-      <contact-component></contact-component>
     </div>
 
     <script type="module" src="./components/hero.js"></script>
-    <script type="module" src="./components/skills.js"></script>
-    <script type="module" src="./components/contact.js"></script>
   </body>
 </html>
 ```

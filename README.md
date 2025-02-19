@@ -17,9 +17,10 @@ templates, and modularity.
 
 ### Installation
 
-Goodway does not require installation! Simply include your component files in a
-JavaScript project and import them.
-
+Goodway requires no installation! Simply include the Goodway core script and your component files in your HTML project.  You can use a CDN or host the files yourself.
+```bash
+import createApp from "//unpkg.com/goodway";
+```
 ### Creating a Component
 
 A Goodway component is created using `createApp()`, which defines the
@@ -28,7 +29,7 @@ component’s name, props, and template.
 #### Example: `hero.js`
 
 ```js
-import createApp from "../core/core.js";
+import createApp from "//unpkg.com/goodway";
 
 export default createApp(() => {
   return {
